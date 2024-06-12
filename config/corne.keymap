@@ -47,10 +47,10 @@
             //                    | ALT | WIN | LWR |       | RSE | SPC  | RTN |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E      &kp R     &kp T    &kp Y      &kp U   &kp I         &kp O    &kp P     &kp BSPC
-&kp CAPS        &kp A  &kp S  &kp D      &kp F     &kp G    &kp H      &kp J   &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B    &kp N      &kp M   &kp COMMA     &kp DOT  &kp FSLH  &mt RSHFT BACKSLASH
-                              &kp LCTRL  &kp LGUI  &mo 1    &kp SPACE  &tog 2  &lt 3 ESCAPE
+&kp TAB         &kp Q  &kp W  &kp E      &kp R     &kp T    &kp Y   &kp U      &kp I         &kp O    &kp P     &kp BSPC
+&kp CAPS        &kp A  &kp S  &kp D      &kp F     &kp G    &kp H   &kp J      &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B    &kp N   &kp M      &kp COMMA     &kp DOT  &kp FSLH  &mt RSHFT BACKSLASH
+                              &kp LCTRL  &kp LGUI  &mo 1    &tog 2  &kp SPACE  &lt 3 ESCAPE
             >;
         };
 
@@ -62,10 +62,10 @@
             //                        |     |     |           | ADJ | SPC |  RET  |
 
             bindings = <
-&kp ESC  &kp EXCL   &kp AT      &kp HASH         &kp DLLR       &kp PRCNT    &kp CARET  &kp AMPS        &kp UP_ARROW        &kp LPAR   &kp RPAR           &kp DEL
-&trans   &kp MINUS  &kp INSERT  &kp LBRC         &kp HOME       &kp END      &kp END    &kp LEFT_ARROW  &kp DOWN            &kp RIGHT  &kp GRAVE          &kp RETURN
+&trans   &kp EXCL   &kp AT      &kp HASH         &kp DLLR       &kp PRCNT    &kp CARET  &kp AMPS        &kp UP_ARROW        &kp LPAR   &kp RPAR           &kp DEL
+&kp ESC  &kp MINUS  &kp INSERT  &kp LBRC         &kp HOME       &kp END      &kp END    &kp LEFT_ARROW  &kp DOWN            &kp RIGHT  &kp GRAVE          &kp RETURN
 &trans   &kp DEL    &kp LGUI    &kp RIGHT_BRACE  &kp BACKSPACE  &kp DQT      &kp MINUS  &kp EQUAL       &kp LS(UNDERSCORE)  &kp PLUS   &kp DOUBLE_QUOTES  &mt RSHFT TILDE
-                                &trans           &trans         &trans       &kp SPACE  &mo 3           &kp RET
+                                &trans           &kp LEFT_ALT   &trans       &kp SPACE  &mo 3           &kp RET
             >;
         };
 
@@ -77,10 +77,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp ESC       &kp N1     &kp N2     &kp N3            &kp N4         &kp N5      &kp N6     &kp N7        &kp N8      &kp N9     &kp N0     &kp DEL
-&kp LEFT_WIN  &kp MINUS  &kp EQUAL  &kp LBKT          &kp RBKT       &kp BSLH    &kp LEFT   &kp UP_ARROW  &kp DOWN    &kp RIGHT  &kp COLON  &kp DOUBLE_QUOTES
-&kp F1        &kp F2     &kp F3     &kp F4            &kp F5         &kp F6      &kp F7     &kp F8        &kp F9      &kp F10    &kp F11    &kp F12
-                                    &mt CAPSLOCK TAB  &kp BACKSPACE  &mo 3       &kp SPACE  &tog 2        &kp RETURN
+&kp ESC       &kp N1     &kp N2     &kp N3            &kp N4         &kp N5      &kp N6    &kp N7        &kp N8      &kp N9     &kp N0     &kp DEL
+&kp LEFT_WIN  &kp MINUS  &kp EQUAL  &kp LBKT          &kp RBKT       &kp BSLH    &kp LEFT  &kp UP_ARROW  &kp DOWN    &kp RIGHT  &kp COLON  &kp DOUBLE_QUOTES
+&kp F1        &kp F2     &kp F3     &kp F4            &kp F5         &kp F6      &kp F7    &kp F8        &kp F9      &kp F10    &kp F11    &kp F12
+                                    &mt CAPSLOCK TAB  &kp BACKSPACE  &mo 3       &tog 2    &kp SPACE     &kp RETURN
             >;
         };
 
