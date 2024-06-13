@@ -33,7 +33,7 @@
 
         lock {
             bindings = <&tog 6>;
-            key-positions = <27 25 35>;
+            key-positions = <25 35>;
         };
     };
 
