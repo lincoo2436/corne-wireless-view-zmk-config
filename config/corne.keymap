@@ -20,11 +20,6 @@
             key-positions = <18 19>;
         };
 
-        cb_closew {
-            bindings = <&kp RA(F4)>;
-            key-positions = <1 2>;
-        };
-
         cb_quicker {
             bindings = <&kp LG(GRAVE)>;
             key-positions = <2 3>;
