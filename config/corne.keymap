@@ -17,7 +17,7 @@
 
         cb_Esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         cb_quicker {
@@ -33,7 +33,7 @@
 
         lock {
             bindings = <&tog 6>;
-            key-positions = <0 24 27>;
+            key-positions = <27 25 35>;
         };
     };
 
