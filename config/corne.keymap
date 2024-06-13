@@ -115,10 +115,10 @@
 
         lock {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none   &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none   &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none   &none  &none  &none
+                     &none  &none  &none    &none  &none  &tog 6
             >;
         };
     };
