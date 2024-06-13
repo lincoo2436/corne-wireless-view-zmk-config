@@ -28,9 +28,10 @@
         cb_ditto {
             bindings = <&kp LA(GRAVE)>;
             key-positions = <3 4>;
+            layers = <0>;
         };
 
-        unlock {
+        lock {
             bindings = <&tog 6>;
             key-positions = <0 24 27>;
         };
